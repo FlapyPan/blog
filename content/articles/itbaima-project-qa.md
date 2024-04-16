@@ -1,13 +1,16 @@
 ---
-layout: page
+layout: article
 cover: /social-card-preview.webp
 author:
   name: FlapyPan
   avatarUrl: https://avatars.githubusercontent.com/u/67328567
   link: https://flapypan.top
-date: 2024-03-01T15:48:00.998Z
-update: 2024-03-27T07:24:58.879Z
+date: 2024-03-27T07:24:58.879Z
 ---
+
+# 栢码项目面经
+
+收集了栢码群里面用栢码项目相关的面经。
 
 ## 介绍一下 Jwt，为什么用 jwt，对比 session 方案的好处和坏处
 

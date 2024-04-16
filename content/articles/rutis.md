@@ -1,21 +1,20 @@
 ---
-layout: page
+layout: article
 cover: /social-card-preview.webp
 author:
   name: FlapyPan
   avatarUrl: https://avatars.githubusercontent.com/u/67328567
   link: https://flapypan.top
-date: 2023-11-23T13:14:54.731Z
-update: 2023-12-02T12:01:48.967Z
+date: 2023-12-02T12:01:48.967Z
 ---
 
-## 前言
+# 手搓 redis
 
 最近闲下来想重拾 rust 的记忆，看了下很久之前写的 [http 服务器](https://github.com/FlapyPan/my-http-server) 项目，完全看不懂了（这真是我写的吗🧐）。
 
 所以花了点时间重新复习了下基础语法，并开了个新坑——今天的主角 rutis。
 
-![](/api/picture/655f49c48b0554b7b7bde1a6)
+![](/articles/655f49c48b0554b7b7bde1a6)
 
 这次的项目继续使用 [tokio](https://tokio.rs/) ——异步 rust 运行时 来编写，关于 tokio 的用法可以去[官网](https://tokio.rs/tokio/tutorial)查看，这里不做赘述。
 

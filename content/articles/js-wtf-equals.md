@@ -1,20 +1,18 @@
 ---
-layout: page
+layout: article
 cover: /social-card-preview.webp
 author:
   name: FlapyPan
   avatarUrl: https://avatars.githubusercontent.com/u/67328567
   link: https://flapypan.top
-date: 2023-11-12T00:00:00.000Z
-update: 2023-11-21T07:05:11.379Z
+date: 2023-11-21T07:05:11.379Z
 ---
 
 # JS经典之眼见不一定为实
 
-## 经典的面试题
+当 a 是什么的时候，下面的判断成立？
 
 ```javascript
-// 当 a 是什么的时候，下面的判断成立
 const a = ?
 if (a == 1 && a == 2 && a == 3) {
   console.log('true')
@@ -140,7 +138,7 @@ if(window.isSecureContext && window.crossOriginIsolated) {
 
 这个是最邪门的一个方式，至少在我电脑上跑了 41490778 次
 
-![](/api/picture/655c565127050559575ece8e)
+![](/articles/655c565127050559575ece8e.png)
 
 > [MDN - SharedArrayBuffer 介绍](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/SharedArrayBuffer)
 > [MDN - 安全上下文](https://developer.mozilla.org/zh-CN/docs/Web/Security/Secure_Contexts)

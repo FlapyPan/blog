@@ -1,15 +1,14 @@
 ---
-layout: page
+layout: article
 cover: /social-card-preview.webp
 author:
   name: FlapyPan
   avatarUrl: https://avatars.githubusercontent.com/u/67328567
   link: https://flapypan.top
-date: 2023-11-25T02:34:31.450Z
-update: 2023-11-25T06:42:16.598Z
+date: 2023-11-25T06:42:16.598Z
 ---
 
-## 前言
+# SpringBoot 3.2 尝鲜
 
 SpringBoot 已在 2023-11-23 正式发布，此版本支持了大量有用的新特性：
 
@@ -31,7 +30,7 @@ SpringBoot 已在 2023-11-23 正式发布，此版本支持了大量有用的新
 
 - **日志输出包括应用程序名称**
   如果配置了 `spring.application.name`，默认日志输出将包括应用程序名称，可以将 `logging.include-application-name` 设置为 false 来关闭。
-  ![](/api/picture/65615cf92121a84c362b3e0c) ![](/api/picture/65615cd6b615fd1595faa6f2)
+  ![](/articles/65615cf92121a84c362b3e0c) ![](/articles/65615cd6b615fd1595faa6f2)
 
 - **自动配置的 UserDetailsService**
   如果依赖中包含一个或多个 `spring-security-oauth2-client`、`spring-security-oauth2-resource-server`、`spring-security-saml2-service-provider`，将关闭 `InMemoryUserDetailsManager` 的自动配置 bean（在 `Reactive` 应用中为 `MapReactiveUserDetailsService`）。
@@ -86,11 +85,11 @@ public ResponseEntity<String> test() {
 
 不启用虚拟线程：
 
-![](/api/picture/656161c8b615fd1595faa701) ![](/api/picture/6561638bb615fd1595faa704) ![](/api/picture/6561746797ea9a5e31b87382)
+![](/articles/656161c8b615fd1595faa701) ![](/articles/6561638bb615fd1595faa704) ![](/articles/6561746797ea9a5e31b87382)
 
 启用虚拟线程：
 
-![](/api/picture/65616163b615fd1595faa6fe) ![](/api/picture/656163e9c90b1941b253243f) ![](/api/picture/656173a5b615fd1595faa724)
+![](/articles/65616163b615fd1595faa6fe) ![](/articles/656163e9c90b1941b253243f) ![](/articles/656173a5b615fd1595faa724)
 
 #### ThreadLocal 支持
 
@@ -123,11 +122,11 @@ public ResponseEntity<String> threadLocal() {
 }
 ```
 
-![](/api/picture/6561743ab615fd1595faa727)
+![](/articles/6561743ab615fd1595faa727)
 
 跑一下看看。
 
-![](/api/picture/65616f3d2121a84c362b3e41)
+![](/articles/65616f3d2121a84c362b3e41)
 
 应该是没问题的 😆。
 

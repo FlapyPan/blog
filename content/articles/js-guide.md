@@ -1,13 +1,14 @@
 ---
-layout: page
+layout: article
 cover: /social-card-preview.webp
 author:
   name: FlapyPan
   avatarUrl: https://avatars.githubusercontent.com/u/67328567
   link: https://flapypan.top
-date: 2024-01-18T04:23:56.041Z
-update: 2024-03-03T06:58:11.233Z
+date: 2024-03-03T06:58:11.233Z
 ---
+
+# 常见 JS 面试题
 
 **持续更新中 😆，如果出现错误或有其他推荐的内容，欢迎在评论区中指出~😚**
 
