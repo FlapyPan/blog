@@ -8,6 +8,7 @@ export default defineNuxtConfig({
   vite: {
     build: {
       modulePreload: { polyfill: true },
+      cssCodeSplit: false,
     },
   },
   app: {

@@ -1,6 +1,6 @@
 ---
 layout: article
-cover: /social-card-preview.webp
+cover: /img/redis.webp
 author:
   name: FlapyPan
   avatarUrl: https://avatars.githubusercontent.com/u/67328567
@@ -14,7 +14,7 @@ date: 2023-12-02T12:01:48.967Z
 
 所以花了点时间重新复习了下基础语法，并开了个新坑——今天的主角 rutis。
 
-![](/articles/655f49c48b0554b7b7bde1a6)
+![](/img/rust-start.png)
 
 这次的项目继续使用 [tokio](https://tokio.rs/) ——异步 rust 运行时 来编写，关于 tokio 的用法可以去[官网](https://tokio.rs/tokio/tutorial)查看，这里不做赘述。
 

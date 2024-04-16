@@ -138,7 +138,7 @@ if(window.isSecureContext && window.crossOriginIsolated) {
 
 这个是最邪门的一个方式，至少在我电脑上跑了 41490778 次
 
-![](/articles/655c565127050559575ece8e.png)
+![](/img/js-wtf-eq.png)
 
 > [MDN - SharedArrayBuffer 介绍](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/SharedArrayBuffer)
 > [MDN - 安全上下文](https://developer.mozilla.org/zh-CN/docs/Web/Security/Secure_Contexts)

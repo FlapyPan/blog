@@ -1,6 +1,6 @@
 ---
 layout: article
-cover: /social-card-preview.webp
+cover: /img/v8.png
 author:
   name: FlapyPan
   avatarUrl: https://avatars.githubusercontent.com/u/67328567
@@ -35,7 +35,7 @@ Chromium 和 Node.js 的 V8 引擎中的 GC (Garbage Collector) 引擎。
 在 V8 中，堆空间会被分成两块区域，或者叫代(generation)，分别叫做新生代(young generation)和老年代(old generation)
 ，而新生代由分为托儿所(nursery)和中间代(intermediate)。
 
-![](/articles/65ac7708b559620f6775b556)
+![](/img/node-gc-generation.png)
 
 ## GC 流程
 

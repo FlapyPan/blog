@@ -30,7 +30,7 @@ SpringBoot 已在 2023-11-23 正式发布，此版本支持了大量有用的新
 
 - **日志输出包括应用程序名称**
   如果配置了 `spring.application.name`，默认日志输出将包括应用程序名称，可以将 `logging.include-application-name` 设置为 false 来关闭。
-  ![](/articles/65615cf92121a84c362b3e0c) ![](/articles/65615cd6b615fd1595faa6f2)
+  ![](/img/springboot-app-name-1.png) ![](/img/springboot-app-name-2.png)
 
 - **自动配置的 UserDetailsService**
   如果依赖中包含一个或多个 `spring-security-oauth2-client`、`spring-security-oauth2-resource-server`、`spring-security-saml2-service-provider`，将关闭 `InMemoryUserDetailsManager` 的自动配置 bean（在 `Reactive` 应用中为 `MapReactiveUserDetailsService`）。
@@ -85,11 +85,11 @@ public ResponseEntity<String> test() {
 
 不启用虚拟线程：
 
-![](/articles/656161c8b615fd1595faa701) ![](/articles/6561638bb615fd1595faa704) ![](/articles/6561746797ea9a5e31b87382)
+![](/img/springboot-thread-1.png) ![](/img/springboot-thread-2.png) ![](/img/springboot-thread-3.png)
 
 启用虚拟线程：
 
-![](/articles/65616163b615fd1595faa6fe) ![](/articles/656163e9c90b1941b253243f) ![](/articles/656173a5b615fd1595faa724)
+![](/img/springboot-virtual-thread-1.png) ![](/img/springboot-virtual-thread-2.png) ![](/img/springboot-virtual-thread-3.png)
 
 #### ThreadLocal 支持
 
@@ -122,11 +122,9 @@ public ResponseEntity<String> threadLocal() {
 }
 ```
 
-![](/articles/6561743ab615fd1595faa727)
-
 跑一下看看。
 
-![](/articles/65616f3d2121a84c362b3e41)
+![](/img/trace-id.png)
 
 应该是没问题的 😆。
 

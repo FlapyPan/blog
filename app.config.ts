@@ -4,7 +4,7 @@ export default defineAppConfig({
     title: 'FlapyPan',
     description: `FlapyPan's blog`,
     header: {
-      position: 'center',
+      position: 'right',
     },
     footer: {
       credits: {
