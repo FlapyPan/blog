@@ -8,9 +8,11 @@ export default defineAppConfig({
     },
     footer: {
       credits: {
-        enabled: false,
+        enabled: true,
+        text: 'FlapyPan/blog',
+        repository: 'https://github.com/FlapyPan/blog',
       },
-      navigation: false,
+      navigation: true,
       alignment: 'left',
       message: '',
     },
