@@ -3,9 +3,15 @@ export default defineAppConfig({
   alpine: {
     title: 'FlapyPan',
     description: `FlapyPan's blog`,
+
     header: {
       position: 'right',
+
+      logo: {
+        alt: 'FlapyPan',
+      },
     },
+
     footer: {
       credits: {
         enabled: true,
@@ -16,9 +22,14 @@ export default defineAppConfig({
       alignment: 'left',
       message: '',
     },
+
     socials: {
       twitter: '_FlapyPan',
       github: 'FlapyPan',
+    },
+
+    image: {
+      src: '/avatar.jpg',
     },
   },
 })
