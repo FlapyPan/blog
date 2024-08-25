@@ -50,6 +50,8 @@ export type ProfileConfig = {
   avatar?: string
   name: string
   bio?: string
+  icpCode?: string
+  icpLink? : string
   links: {
     name: string
     url: string

@@ -38,6 +38,8 @@ export const profileConfig: ProfileConfig = {
   avatar: '/avatar.jpg', // Relative to the /src directory. Relative to the /public directory if it starts with '/'
   name: TITLE,
   bio: SUBTITLE,
+  icpCode: '萌ICP备20237722号',
+  icpLink: 'https://icp.gov.moe/?keyword=20237722',
   links: [
     {
       name: 'Twitter',

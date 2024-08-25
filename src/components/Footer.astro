@@ -1,5 +1,4 @@
 ---
-
 import { profileConfig } from '../config'
 import { url } from '../utils/url-utils'
 ---
@@ -12,6 +11,10 @@ import { url } from '../utils/url-utils'
         <br>
         Powered by
         <a class="link text-[var(--primary)] font-medium" target="_blank" href="https://astro.build">Astro</a> &
-        <a class="link text-[var(--primary)] font-medium" target="_blank" href="https://github.com/saicaca/fuwari">Fuwari</a>
+        <a class="link text-[var(--primary)] font-medium" href="https://github.com/saicaca/fuwari">Fuwari</a>
+        { profileConfig.icpCode
+            ? <> / <a class="link text-[var(--primary)] font-medium" target="_blank" href={profileConfig.icpLink}>{profileConfig.icpCode}</a></>
+            : <></>
+        }
     </div>
 </div>
