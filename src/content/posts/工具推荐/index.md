@@ -2,11 +2,12 @@
 title: 工具推荐
 published: 2024-09-15
 description: '一些实用工具推荐，Windows为主'
+image: cover.jpg
 tags: [windows]
 category: '文章'
 ---
 
-记录我电脑上必备的一些实用工具推荐，并提供官方下载地址。
+记录我电脑上必备的一些实用工具推荐，附上官方下载地址。
 
 ## 系统信息查看和优化
 
