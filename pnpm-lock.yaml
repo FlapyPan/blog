@@ -27,12 +27,6 @@ importers:
       '@astrojs/tailwind':
         specifier: ^5.1.0
         version: 5.1.0(astro@4.12.2(@types/node@20.14.12)(lightningcss@1.25.1)(sass@1.77.8)(stylus@0.63.0)(terser@5.31.3)(typescript@5.5.4))(tailwindcss@3.4.7)
-      '@fontsource-variable/jetbrains-mono':
-        specifier: ^5.0.21
-        version: 5.0.21
-      '@fontsource/roboto':
-        specifier: ^5.0.13
-        version: 5.0.13
       '@swup/astro':
         specifier: ^1.4.1
         version: 1.4.1(@types/babel__core@7.20.5)
@@ -1022,12 +1016,6 @@ packages:
     engines: {node: '>=12'}
     cpu: [x64]
     os: [win32]
-
-  '@fontsource-variable/jetbrains-mono@5.0.21':
-    resolution: {integrity: sha512-LL/57KBbM3r0UMuN6tSeYExiBObt0QuGq49m1FyoDFIv1GAcuKU0EQ/GAKJ/yt3R8onOCD3f5X9Dln//G6uzRQ==}
-
-  '@fontsource/roboto@5.0.13':
-    resolution: {integrity: sha512-j61DHjsdUCKMXSdNLTOxcG701FWnF0jcqNNQi2iPCDxU8seN/sMxeh62dC++UiagCWq9ghTypX+Pcy7kX+QOeQ==}
 
   '@iconify-json/fa6-brands@1.1.21':
     resolution: {integrity: sha512-NS/BszVo8fUVpzA7/5b9tmkHzisZSUlm8kjdznk1Bux5p5QH3BxHZXrZUM5QsT90/7+omQC0EKukwf7H7nujZg==}
@@ -5707,10 +5695,6 @@ snapshots:
 
   '@esbuild/win32-x64@0.21.5':
     optional: true
-
-  '@fontsource-variable/jetbrains-mono@5.0.21': {}
-
-  '@fontsource/roboto@5.0.13': {}
 
   '@iconify-json/fa6-brands@1.1.21':
     dependencies:
