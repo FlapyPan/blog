@@ -126,7 +126,6 @@ const siteLang = siteConfig.lang.replace('_', '-')
 	:root {
 		--hue: var(--configHue);
 		--page-width: 75rem;
-		filter: grayscale(1)
 	}
 </style>
 <style is:global>
@@ -151,7 +150,7 @@ const siteLang = siteConfig.lang.replace('_', '-')
 </style>
 <script>
 import {
-	OverlayScrollbars,
+OverlayScrollbars,
 } from 'overlayscrollbars'
 import 'overlayscrollbars/overlayscrollbars.css'
 import { getHue, getStoredTheme, setHue, setTheme } from "../utils/setting-utils"
