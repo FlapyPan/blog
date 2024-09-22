@@ -150,7 +150,7 @@ const siteLang = siteConfig.lang.replace('_', '-')
 </style>
 <script>
 import {
-OverlayScrollbars,
+	OverlayScrollbars,
 } from 'overlayscrollbars'
 import 'overlayscrollbars/overlayscrollbars.css'
 import { getHue, getStoredTheme, setHue, setTheme } from "../utils/setting-utils"
@@ -373,12 +373,13 @@ if (window.swup) {
 </script>
 
 
-<style is:global lang="stylus">
-#banner-wrapper
-	top: 0
-	opacity: 1
-.banner-closed
-	#banner-wrapper
-		top: -120px
-		opacity: 0
+<style is:global>
+	#banner-wrapper {
+		top: 0;
+		opacity: 1;
+	}
+	.banner-closed #banner-wrapper {
+		top: -120px;
+		opacity: 0;
+	}
 </style>
