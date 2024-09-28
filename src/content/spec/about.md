@@ -1,12 +1,17 @@
 # About
 
-我大抵是病了，病的还不轻
+我大抵是病了，病的还不轻。
 
 ## 好朋友们
 
-|                 |                                |     |     |     |     |     |     |     |
-| --------------- | ------------------------------ | --- | --- | --- | --- | --- | --- | --- |
-| HAUE_LYS' Blog  | <https://lys2021.com/>         |     |     |     |     |     |     |     |
-| 赤城的部落格    | <https://akagiyui.com/>        |     |     |     |     |     |     |     |
-| Arnoya's Blog   | <https://arnoya.flapypan.top/> |     |     |     |     |     |     |     |
-| zzlSuper's Blog | <https://zzl-study.top/>       |     |     |     |     |     |     |     |
+|                 |                                |
+| --------------- | ------------------------------ |
+| HAUE_LYS' Blog  | <https://lys2021.com/>         |
+| 赤城的部落格    | <https://akagiyui.com/>        |
+| 終わり群星      | <https://stazxr.cn/>           |
+| Arnoya's Blog   | <https://arnoya.flapypan.top/> |
+| zzlSuper's Blog | <https://zzl-study.top/>       |
+
+---
+
+[![genshin-card](https://ys.himiku.com/64/75432741.png)](https://www.miyoushe.com/ys/accountCenter/postList?id=75432741)
