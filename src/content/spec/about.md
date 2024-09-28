@@ -12,6 +12,6 @@
 | Arnoya's Blog   | <https://arnoya.flapypan.top/> |
 | zzlSuper's Blog | <https://zzl-study.top/>       |
 
----
+## Genshin
 
 [![genshin-card](https://ys.himiku.com/64/75432741.png)](https://www.miyoushe.com/ys/accountCenter/postList?id=75432741)
