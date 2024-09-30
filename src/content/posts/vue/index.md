@@ -50,7 +50,7 @@ const ele = ref()
 const watermark = `<br/>
 <p>————————————————</p>
 <p>版权声明：本文为 FlapyPan 的原创文章，禁止一切未经授权的转载、发布、出售等行为，违者将被追究法律责任。</p>
-<p>原文链接：<a href="https://www.flapypan.top/copy-watermark-vue-hook">https://www.flapypan.top/copy-watermark-vue-hook</p></a>`
+<p>原文链接：<a href="https://example.org/abc">https://example.org/abc</p></a>`
 useCopyWatermark(ele, { watermark })
 </script>
 

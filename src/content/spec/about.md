@@ -9,7 +9,7 @@
 | HAUE_LYS' Blog  | <https://lys2021.com/>         |
 | 赤城的部落格    | <https://akagiyui.com/>        |
 | 終わり群星      | <https://stazxr.cn/>           |
-| Arnoya's Blog   | <https://arnoya.flapypan.top/> |
+| Arnoya's Blog   | <https://arnoya.vercel.app/> |
 | zzlSuper's Blog | <https://zzl-study.top/>       |
 
 ## Genshin

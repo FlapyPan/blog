@@ -127,19 +127,19 @@ CMD ["java","-Xms512M", "-Xmx512M", "-jar", "/app/springboot.jar"]
 
 # 站点配置
 
-flapypan.top {
+example.org {
         # 重定向到www
-        redir https://www.flapypan.top{uri}
+        redir https://www.example.org{uri}
         import COMMON_CONFIG
 }
 
-blog.flapypan.top {
+blog.example.org {
         # 重定向到www
-        redir https://www.flapypan.top{uri}
+        redir https://www.example.org{uri}
         import COMMON_CONFIG
 }
 
-www.flapypan.top {
+www.example.org {
         root * /home/flapypan/blog/dist
         route {
                 # handle_path 去除前缀，handle 保留
