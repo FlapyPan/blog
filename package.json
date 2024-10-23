@@ -8,7 +8,7 @@
     "build": "astro build && pagefind --site dist",
     "preview": "astro preview",
     "astro": "astro",
-    "new-post": "bun run --bun scripts/new-post.js"
+    "new-post": "deno run scripts/new-post.js"
   },
   "dependencies": {
     "@astrojs/check": "^0.8.3",

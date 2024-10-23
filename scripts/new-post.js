@@ -17,7 +17,7 @@ const args = process.argv.slice(2)
 
 if (args.length === 0) {
   console.error(
-    `Error: No filename argument provided\nUsage: pnpm run new-post <filename>`
+    `Error: No filename argument provided\nUsage: new-post <filename>`
   )
   process.exit(1)
 }
