@@ -1,0 +1,24 @@
+:root {
+  --vp-nav-bg-color: rgb(255 255 255 / 0.9);
+  --vp-local-nav-bg-color: var(--vp-nav-bg-color);
+}
+
+:root.dark {
+  --vp-nav-bg-color: rgb(27 27 31 / 0.9);
+}
+
+.VPNav .VPNavBar .wrapper .container .content .content-body,
+.VPLocalNav {
+  backdrop-filter: blur(1rem);
+}
+
+.VPNav .VPNavBar .VPNavBarTitle img.VPImage.logo,
+.VPContent.is-home .VPHome .VPHero.VPHomeHero img.VPImage {
+  border-radius: 100%;
+}
+
+@media (min-width: 960px) {
+  .VPHome {
+    margin-top: 56px;
+  }
+}
