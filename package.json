@@ -3,7 +3,12 @@
   "type": "module",
   "version": "latest",
   "devDependencies": {
+    "lightningcss": "^1.28.1",
     "pagefind": "^1.2.0",
+    "sharp": "^0.33.5",
+    "svgo": "^3.3.2",
+    "vite-plugin-image-optimizer": "^1.1.8",
+    "vite-plugin-vsharp": "^1.8.1",
     "vitepress": "^1.5.0",
     "vitepress-plugin-pagefind": "^0.4.11"
   },
@@ -11,5 +16,8 @@
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
     "docs:preview": "vitepress preview docs"
-  }
+  },
+  "browserslist": [
+    "> 0.5% in CN"
+  ]
 }

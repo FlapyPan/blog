@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress'
+import { ViteImageOptimizer } from 'vite-plugin-image-optimizer'
 import { pagefindPlugin } from 'vitepress-plugin-pagefind'
 
 // https://vitepress.dev/reference/site-config
@@ -72,7 +73,35 @@ export default defineConfig({
     darkModeSwitchTitle: '变黑！',
   },
   vite: {
+    css: {
+      transformer: 'lightningcss',
+    },
+    build: {
+      minify: true,
+      cssMinify: 'lightningcss',
+      modulePreload: { polyfill: true },
+    },
     plugins: [
+      ViteImageOptimizer({
+        png: {
+          quality: 90,
+        },
+        jpeg: {
+          quality: 90,
+        },
+        jpg: {
+          quality: 90,
+        },
+        tiff: {
+          quality: 90,
+        },
+        webp: {
+          lossless: true,
+        },
+        avif: {
+          lossless: true,
+        },
+      }),
       pagefindPlugin({
         btnPlaceholder: '开搜',
         placeholder: '找找看',
