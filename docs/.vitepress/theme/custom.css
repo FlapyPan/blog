@@ -8,13 +8,18 @@
 }
 
 .VPNav .VPNavBar .wrapper .container .content .content-body,
-.VPLocalNav {
+.Layout .VPLocalNav.has-sidebar {
   backdrop-filter: blur(1rem);
 }
 
 .VPNav .VPNavBar .VPNavBarTitle img.VPImage.logo,
 .VPContent.is-home .VPHome .VPHero.VPHomeHero img.VPImage {
   border-radius: 100%;
+}
+
+.algolia [command-dialog-mask] {
+  background-color: rgb(0 0 0 / 0.5);
+  backdrop-filter: blur(1rem);
 }
 
 @media (min-width: 960px) {

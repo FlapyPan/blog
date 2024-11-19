@@ -3,7 +3,9 @@
   "type": "module",
   "version": "latest",
   "devDependencies": {
-    "vitepress": "^1.5.0"
+    "pagefind": "^1.2.0",
+    "vitepress": "^1.5.0",
+    "vitepress-plugin-pagefind": "^0.4.11"
   },
   "scripts": {
     "docs:dev": "vitepress dev docs",

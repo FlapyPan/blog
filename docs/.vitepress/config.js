@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress'
+import { pagefindPlugin } from 'vitepress-plugin-pagefind'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -24,7 +25,6 @@ export default defineConfig({
         { text: '安装使用 Scoop', link: '/posts/scoop/' },
         { text: 'JS 常见基础面试题', link: '/posts/js-qa/' },
         { text: 'JS 经典之眼见不一定为实', link: '/posts/js-wtf-eq/' },
-        { text: 'JS 经典之眼见不一定为实', link: '/posts/js-wtf/' },
         { text: 'CVE-2023-34092', link: '/posts/cve-2023-34092/' },
         { text: 'SpringBoot 3.2 尝鲜', link: '/posts/springboot-3_2/' },
         { text: '栢码项目面经', link: '/posts/itbaima-qa/' },
@@ -70,5 +70,26 @@ export default defineConfig({
     darkModeSwitchLabel: '主题',
     lightModeSwitchTitle: '变白！',
     darkModeSwitchTitle: '变黑！',
+  },
+  vite: {
+    plugins: [
+      pagefindPlugin({
+        btnPlaceholder: '开搜',
+        placeholder: '找找看',
+        emptyText: '空空如也',
+        heading: '共 {{searchResult}} 条结果',
+        customSearchQuery(input) {
+          const segmenter = new Intl.Segmenter('zh-CN', { granularity: 'word' })
+          const segments = segmenter.segment(input)
+          const result = []
+          for (const it of segments) {
+            if (it.isWordLike) {
+              result.push(it.segment)
+            }
+          }
+          return result.join(' ')
+        },
+      }),
+    ],
   },
 })
