@@ -72,6 +72,31 @@ export default defineConfig({
     lightModeSwitchTitle: '变白！',
     darkModeSwitchTitle: '变黑！',
   },
+  head: [
+    ['link', { rel: 'preconnect', href: 'https://fonts.loli.net' }],
+    ['link', { rel: 'preconnect', href: 'https://gstatic.loli.net', crossorigin: '' }],
+    [
+      'link',
+      {
+        href: 'https://fonts.loli.net/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap',
+        rel: 'stylesheet',
+      },
+    ],
+    [
+      'link',
+      {
+        href: 'https://fonts.loli.net/css2?family=Noto+Sans+SC:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap',
+        rel: 'stylesheet',
+      },
+    ],
+    [
+      'link',
+      {
+        href: 'https://fonts.loli.net/css2?family=Noto+Sans+Mono:wght@100..900&family=Noto+Sans+SC:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap',
+        rel: 'stylesheet',
+      },
+    ],
+  ],
   vite: {
     css: {
       transformer: 'lightningcss',

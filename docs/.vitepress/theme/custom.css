@@ -1,6 +1,14 @@
 :root {
+  --vp-font-family-base: Noto Sans SC, Noto Sans CJK SC, Noto Sans, Noto Color Emoji, ui-sans-serif, system-ui,
+    -apple-system, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  --vp-font-family-mono: Noto Sans Mono CJK SC, Noto Sans Mono, Cascadia Mono, ui-monospace, SFMono-Regular, Menlo,
+    Monaco, Consolas, Liberation Mono, Courier New, monospace, var(--vp-font-family-base);
   --vp-nav-bg-color: rgb(255 255 255 / 0.9);
   --vp-local-nav-bg-color: var(--vp-nav-bg-color);
+  --vp-c-indigo-1: #fb7185;
+  --vp-c-indigo-2: #f43f5e;
+  --vp-c-indigo-3: #e11d48;
+  --vp-c-indigo-soft: rgba(244, 63, 94, 0.16);
 }
 
 :root.dark {
