@@ -96,14 +96,14 @@ export default defineConfig({
         rel: 'stylesheet',
       },
     ],
-    ['script', { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=GTM-WZQ9Q2JH' }],
+    ['script', { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-1ZYSWJMS6Y' }],
     [
       'script',
       {},
       `window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-      gtag('config', 'TAG_ID');`,
+      gtag('config', 'G-1ZYSWJMS6Y');`,
     ],
   ],
   vite: {
