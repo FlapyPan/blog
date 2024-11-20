@@ -1,6 +1,6 @@
 ---
 title: 系统运维和操作笔记
-lastUpdated: 2023-07-28
+lastUpdated: 2024-11-21
 ---
 
 # 系统运维和操作笔记
@@ -51,6 +51,7 @@ set undodir=~/.vim/.undo//
 set autochdir
 set noerrorbells
 "set visualbell
+set belloff=all
 set history=1000
 set autoread
 set listchars=tab:»\ ,trail:·
